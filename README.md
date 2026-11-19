@@ -64,63 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Morningscore is a Danish SEO and AI tool platform founded in 2018, offering a gamified suite of services including rank tracking, keyword research, competitor analysis, backlink checking, and AI‑driven content creation. The platform emphasizes ease of use, integrates with WordPress and Shopify, and promotes sustainability with tree‑planting initiatives. It serves small to medium businesses aiming to improve their online visibility across Google and AI search.
+Morningscore provides an SEO and growth platform that helps businesses improve their visibility on Google and AI-driven search. Founded in 2018 in Odense, Denmark, the company offers tools for SEO, GEO targeting, and automated growth assistance, serving over 4,000 customers with a 14‑day free trial. Their platform integrates with Google and ChatGPT to deliver actionable insights and hands‑on support.
 
-**Areas:** SEO · AI · Marketing · SaaS · Denmark
+**Areas:** SEO · Marketing · Growth · AI · Denmark
 
 ## Morningscore on APIs.io
 
 Everything profiled for Morningscore is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/morningscore-io/](https://apis.io/providers/morningscore-io/)** — or go straight to one of the APIs or properties below.
 
+### APIs (14)
+
+- [Morningscore AI API](https://apis.io/apis/morningscore-io/morningscore-io-ai-api/) — Monitor Google AI search visibility and tracked prompts. Use these endpoints to read GEO score data, list prompt folders, inspect tracker summaries, fetch…
+- [Morningscore Competitors API](https://apis.io/apis/morningscore-io/morningscore-io-competitors-api/) — Manage and discover competitors for a domain: list saved competitors with optional SEO, link, and GEO metrics, fetch suggestions, add a competitor hostname,…
+- [Morningscore Domains API](https://apis.io/apis/morningscore-io/morningscore-io-domains-api/) — Manage domains on the authenticated account: list registered sites, add or remove domains, poll activation status after adding a domain, read the website…
+- [Morningscore Geo Health API](https://apis.io/apis/morningscore-io/morningscore-io-geohealth-api/) — Read and generate six-pillar GEO Health reports for a domain. GET returns allowlisted report data when available; POST starts manual generation subject to…
+- [Morningscore Health API](https://apis.io/apis/morningscore-io/morningscore-io-health-api/) — Analyze onsite SEO health for a domain. This group covers indexed pages, issue lists, AI fix suggestions, crawler IPs, and overall health summaries.
+- [Morningscore Keywords API](https://apis.io/apis/morningscore-io/morningscore-io-keywords-api/) — Work with keyword visibility data for a domain: list ranking and tracked keywords, inspect single-keyword metrics, compare competitor overlap, research…
+- [Morningscore Links API](https://apis.io/apis/morningscore-io/morningscore-io-links-api/) — Retrieve backlink data for a domain, including all, newly discovered, and lost links.
+- [Morningscore Missions API](https://apis.io/apis/morningscore-io/morningscore-io-missions-api/) — Manage SEO missions for a domain: list current, completed, and archived missions, create new missions, and archive, unarchive, or delete them.
+- [Morningscore Ms Chat API](https://apis.io/apis/morningscore-io/morningscore-io-mschat-api/) — The msChat API from Morningscore — 9 operation(s) for mschat.
+- [Morningscore Other API](https://apis.io/apis/morningscore-io/morningscore-io-other-api/) — Supporting API utilities, including current credit usage and limits for feature-specific quotas.
+- [Morningscore Page Booster API](https://apis.io/apis/morningscore-io/morningscore-io-pagebooster-api/) — Optimize any existing landing page to increase odds of ranking in search and AI. Provide HTML and other optional parameters and receive fully optimized…
+- [Morningscore Reports API](https://apis.io/apis/morningscore-io/morningscore-io-reports-api/) — The reports API from Morningscore — 1 operation(s) for reports.
+- [Morningscore Search Console API](https://apis.io/apis/morningscore-io/morningscore-io-searchconsole-api/) — Read live Google Search Console performance for a domain through the account's own GSC connection: every query with clicks, impressions, CTR and average…
+- [Morningscore Writer API](https://apis.io/apis/morningscore-io/morningscore-io-writer-api/) — Generate and retrieve AI-written articles for a domain. Use the returned article ID to poll or fetch generated content.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Morningscore Agentic Access](https://apis.io/agentic-access/morningscore-io/morningscore-io-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Morningscore Io Context](https://apis.io/jsonld/morningscore-io/morningscore-io-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Morningscore Openapi Overlay](https://apis.io/overlays/morningscore-io/morningscore-io-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Morningscore API Rules](https://apis.io/rules/morningscore-io/morningscore-io-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Morningscore Authentication](https://apis.io/security/morningscore-io/morningscore-io-authentication/)
 - [Morningscore Domain Security](https://apis.io/security/morningscore-io/morningscore-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Morningscore Plans Pricing](https://apis.io/plans/morningscore-io/morningscore-io-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://morningscore.io/)
+- [Documentation](https://help.morningscore.io/)
 - [Pricing](https://morningscore.io/pricing/)
-- [Support](https://help.morningscore.io/)
 - [Blog](https://morningscore.io/blog/)
 - [Terms of service](https://morningscore.io/terms/)
 - [Privacy policy](https://morningscore.io/privacy-policy/)
+- [GitHub](https://github.com/morningscore)
 
 ## API Evangelist rating
 
-**Kin Score 14.0** — emerging · rubric 0.28.0 · scored 2026-11-19
+**Kin Score 49.3** — developing · rubric 0.28.0 · scored 2026-11-19
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 7.1 |
-| Access clarity | 36.2 |
+| Discoverability | 78.6 |
+| Contract quality | 52.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 59.1 |
 
-**Agent readiness 18.0** — agent-aware
+**Agent readiness 51.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -129,11 +178,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/morningscore-io/](https://apis.io/providers/morningscore-io/).
 
